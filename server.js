@@ -6,12 +6,12 @@ app.get('/', function (req, res) {
     res.sendFile(path.resolve('./index.html'));
 })
 
-app.get('/cbfCamp.plist', function (req, res) {
-    res.sendFile(path.resolve('./cbfCamp.plist'));
+app.get('/BetterExtreme.plist', function (req, res) {
+    res.sendFile(path.resolve('./BetterExtreme.plist'));
 })
 
-app.get('/CbfCamp.ipa', function (req, res) {
-    res.sendFile(path.resolve('./CbfCamp.ipa'));
+app.get('/BetterExtreme.ipa', function (req, res) {
+    res.sendFile(path.resolve('./BetterExtreme.ipa'));
 })
 
 app.listen(process.env.PORT || 3000, function () {
