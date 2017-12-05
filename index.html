@@ -1,60 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>BetterExtreme - Free Bootstrap 4 App Template</title>
-        <meta name="description" content="Love BetterExtreme." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Bootstrap 4-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!--icons-->
-        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <!--header-->
-        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-primary sticky-navigation">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#"><strong>BetterExtreme</strong></a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                
-            </div>
-        </nav>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Beta Installer</title>
+        <style type="text/css">
+                body {
+                        background: url(bkg.png) repeat #c5ccd4;
+                        font-family: CABNDWeb, Helvetica, arial, sans-serif;
+                }
+                .congrats {
+                        font-size: 19pt;
+                        padding: 6px;
+                        font-family: CABNDWeb, Helvetica, Arial, Sans-Serif;
+                        text-align: left;
+                }
+                .step {
+                        background: white;
+                        border: 1px #ccc solid;
+                        border-radius: 14px;
+                        padding: 4px 10px;
+                        margin: 10px 0;
+                }
+                .instructions {
+                        font-size: 10pt;
+                }
+                .arrow {
+                        font-size: 15pt;
+                }
+                table {
+                        width: 100%;
+                }
+                .button {
+   border-top: 1px solid #97f79a;
+   background: #7ede76;
+   background: -webkit-gradient(linear, left top, left bottom, from(#2c732e), to(#7ede76));
+   background: -webkit-linear-gradient(top, #2c732e, #7ede76);
+   background: -moz-linear-gradient(top, #2c732e, #7ede76);
+   background: -ms-linear-gradient(top, #2c732e, #7ede76);
+   background: -o-linear-gradient(top, #2c732e, #7ede76);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: CABNDWeb, Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28782a;
+   background: #28782a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #3e5c1b;
+   background: #3e5c1b;
+   }
+   @font-face {
+	font-family: CABNDWeb;
+}
+        </style>
+</head>
+<body>
 
-        <!--main section-->
-        <section class="bg-texture hero pt-5">
-            <div class="container">
-                <div class="row d-sm-flex">
-                    <div class="col-sm-6 text-white wow fadeIn">
-                        <div class="mt-5 pt-5 hidden-sm-down"></div>
-                        <h1>BetterExtreme</h1>
-                        <h2<span class="text-orange"></span> </h2>
-                        <p class="mt-4 lead">
-                            
-                        </p>
-                        <p class="mt-5">
-                            
-                            <a href="itms-services://?action=download-manifest&url=https://better-extreme.herokuapp.com/BetterExtreme.plist"><img src="img/apple_store.webp" class="store-img"/></a>
-                        </p>
-                    </div>
-                    <div class="col-sm-6 pt-5 hidden-sm-down wow fadeInRight">
-                        <img class="img-fluid mx-auto d-block" src="img/shot-3.png"/>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div class="congrats">Tap below to install Better Extreme <br/></div>
 
-        
+<a href="itms-services://?action=download-manifest&url=https://better-extreme.herokuapp.com/BetterExtreme.plist"class="button">Install Now</a>
 
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+</body>
 </html>
